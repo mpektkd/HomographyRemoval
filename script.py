@@ -1,15 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-
-
-# In[6]:
 
 
 def find_line_equations(pts_1_line, pts_2_line):
@@ -195,10 +189,4 @@ if __name__ == "__main__" :
         pts_2_line_2.append(lines[j][2:])
 
     run(img_path, pts_1_line_1, pts_2_line_1, pts_1_line_2, pts_2_line_2)
-
-
-# In[ ]:
-
-
-
 
