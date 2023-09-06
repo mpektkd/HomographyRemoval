@@ -3,7 +3,7 @@ NTUA
 
 We are asked to remove the homography:projective transformation from the image,
 which is given to us. In particular, following the Metric Rectification via Orthogonal Lines algorithm, 
-which is described in [1], we aim to remove the distortion due to the projection
+which is described in [[1]](http://www.r-5.org/files/books/computers/algo-list/image-processing/vision/Richard_Hartley_Andrew_Zisserman-Multiple_View_Geometry_in_Computer_Vision-EN.pdf), we aim to remove the distortion due to the projection
 H transformation.
 
 ### Algorithm
